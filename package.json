@@ -1,0 +1,28 @@
+{
+  "name": "devlink",
+  "version": "1.0.0",
+  "description": "a dating application for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riteshdhingra777/DEVLINK.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/riteshdhingra777/DEVLINK/issues"
+  },
+  "homepage": "https://github.com/riteshdhingra777/DEVLINK#readme",
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3",
+    "nodemon": "^3.1.14"
+  }
+}
